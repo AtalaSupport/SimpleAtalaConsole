@@ -15,7 +15,10 @@ namespace SimpleAtalaConsole
         {
             Console.WriteLine("SimpleAtalaConsole Starting...");
             string imgPath = GetWorkingDir();
+
+            //string inFile = "images\\Tiger.jpg";
             string inFile = imgPath + "_CUSTFILES\\Tiger.jpg";
+            
             Console.WriteLine("  inFile: " + inFile);
             string outFile = imgPath + "out.png";
             Console.WriteLine("  outFile: " + outFile);
@@ -27,6 +30,7 @@ namespace SimpleAtalaConsole
             Console.WriteLine("  Hi, I have an AtalaImage...");
             Console.WriteLine("    Size: " + img.Size.ToString());
             Console.WriteLine("    PixelFormat: " + img.PixelFormat.ToString());
+            img.Save(outFile, new PngEncoder(), null);
             img.Dispose();
 
             Console.WriteLine("END Processing");
