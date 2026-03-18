@@ -1,9 +1,14 @@
 # SimpleAtalaConsole
-This is a 64 bit .NET Framework 4.6.2 console app with minimal Atalasoft references set.  
+
+[Official Home Page for all versions of SimpleAtalaConsole](https://github.com/AtalaSupport/SimpleAtalaConsole/wiki)
+
+This is a 64 bit .NET Framework 4.6.2 console app with minimal Atalasoft references set, written in C#.  
 
 It is meant to be used as a quick starting point for Repros that do not require UI (winforms/wpf) and are not web applications.  
 
 We have a minimal [WebDocumentViewer with WebDocumentThumbnailer](https://github.com/AtalaSupport/SimpleWDVwithWDT) sample app as well as minimal WebCapture (WingScan) apps for web and our AdvanceScanToFile is an excellent minimal Winforms app. For Wpf, we have WpfAnnotations.  
+
+This is the C# .NET Framework version of this app. For other languages / targets, please see [SimpleAtalaConsole](https://github.com/AtalaSupport/SimpleAtalaConsole/wiki) for more options
 
 
 ## Licening
