@@ -18,7 +18,7 @@ namespace SimpleAtalaConsole
             //// - activate a license(paid or eval) for our PdfReader Addon if you don't already have one
             //// - reference Atalasoft.dotIamge.PdfReader.dll
             //// - uncomment the following line of code
-            //RegisteredDecoders.Decoders.Add(New PdfDecoder() { Resolution = 200 });
+            //RegisteredDecoders.Decoders.Add(new PdfDecoder() { Resolution = 200 });
 
             Console.WriteLine("SimpleAtalaConsole Starting...");
             string imgPath = DemoSetup();
